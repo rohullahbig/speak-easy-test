@@ -47,10 +47,10 @@ const s3 = new AWS.S3({
 
 // Mailgun
 const mg = require("mailgun-js");
-const mailgun = mg({apiKey: process.env.mg_API_KEY, domain: 'mg.halocouture.com'});
+const mailgun = mg({apiKey: process.env.mg_API_KEY, domain: 'mg.speakeasyhairextensions.com'});
 
 // Middleware
-app.use(cors({origin: 'https://halocouture.com'}));
+app.use(cors({origin: 'https://speakeasyhairextensions.com'}));
 
 // Functions 
 function getContactID(name) {
